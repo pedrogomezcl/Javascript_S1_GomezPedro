@@ -2,7 +2,7 @@
 // Ejercicios DIA 3
 // #####################################
 //Importaciones de js externos//
-import * as funciones from './funciones.js'
+import * as funciones from './funciones.js';
 
 ///Menu Principal///
 let bo=true;
