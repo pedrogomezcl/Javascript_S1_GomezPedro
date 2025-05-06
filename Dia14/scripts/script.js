@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded',()=>{
     }
     function displayCapsula(data){
 
+        
         datosContenedor.innerHTML=``;
         data.forEach(cap =>{
             const capDiv=document.createElement('div');
