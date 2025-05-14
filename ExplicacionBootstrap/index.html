@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tabla de Personas con Bootstrap CDN</title>
+  <!-- Bootstrap CSS via CDN guardado en styles-->
+  <link href="./styles/estiloBootstrap.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+
+  <div class="container py-5">
+    <h2 class="mb-4 text-center">Listado de Personas</h2>
+    
+    <table class="table table-bordered table-striped table-hover table-secondary">
+      <thead class="table-dark">
+        <tr class="table-primary">
+          <th>#</th>
+          <th>Nombre</th>
+          <th>Edad</th>
+          <th>Correo</th>
+        </tr>
+      </thead>
+      <tbody id="tabla-personas">
+        <!-- Filas generadas con JS -->
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Bootstrap JS (opcional, solo necesario si usas componentes como modales, tooltips, etc.) -->
+  <script src="./scripts/scriptBoostrap.js"></script>
+
+  <!-- JavaScript Vanilla para llenar la tabla -->
+  <script src="./scripts/scriptGeneral.js"></script>
+</body>
+</html>

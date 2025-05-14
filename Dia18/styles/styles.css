@@ -1,0 +1,20 @@
+.card {
+              font-family: 'Arial', sans-serif;
+              background: #f9f9f9;
+              border: 1px solid #ddd;
+              border-radius: 8px;
+              padding: 16px;
+              width: 250px;
+              box-shadow: 0 2px 4px rgba(255, 0, 0, 0.1);
+            }
+
+.name {
+              font-size: 1.2em;
+              font-weight: bold;
+              margin-bottom: 4px;
+}
+
+.email {
+        color: #555;
+}
+          
